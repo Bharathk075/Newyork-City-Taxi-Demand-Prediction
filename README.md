@@ -49,13 +49,13 @@
 
 ## Information on taxis:
 
-# Yellow Taxi: Yellow Medallion Taxicabs</h5>
+## Yellow Taxi: Yellow Medallion Taxicabs</h5>
 * These are the famous NYC yellow taxis that provide transportation exclusively through street-hails. The number of taxicabs is limited by a finite number of medallions issued by the TLC. You access this mode of transportation by standing in the street and hailing an available taxi with your hand. The pickups are not pre-arranged.</p>
 
-# For Hire Vehicles (FHVs) 
+## For Hire Vehicles (FHVs) 
 * FHV transportation is accessed by a pre-arrangement with a dispatcher or limo company. These FHVs are not permitted to pick up passengers via street hails, as those rides are not considered pre-arranged. 
 
-# Green Taxi: Street Hail Livery (SHL) 
+## Green Taxi: Street Hail Livery (SHL) 
 * The SHL program will allow livery vehicle owners to license and outfit their vehicles with green borough taxi branding, meters, credit card machines, and ultimately the right to accept street hails in addition to pre-arranged rides. 
 
 # Note:
@@ -64,6 +64,8 @@ In the given notebook we are considering only the yellow taxis for the time peri
 
 # Performance metrics
 * Mean Absolute percentage error
+![MAPE](https://user-images.githubusercontent.com/42597977/139605305-7ada1335-b1d4-4d4e-a9d0-5b9bcf6f304e.jpg)
+
 * Mean Squared error
 
 # Exploratory Data Analysis
@@ -78,15 +80,15 @@ In the given notebook we are considering only the yellow taxis for the time peri
 # Modelling
 * We have implemented variety of models ranging from simple baseline models using averages to complex Machine LEarning Models
 * These are the models implemetned:
-# Simple Moving Averages:
+## Simple Moving Averages:
 * Simple Moving Averages using Ratio Values -  Rt=(Rt−1+Rt−2+Rt−3....Rt−n)/n
-# Weighted Moving Averages
+## Weighted Moving Averages
 * Weighted Moving Averages using Ratio Values -  Rt=(N∗Rt−1+(N−1)∗Rt−2+(N−2)∗Rt−3....1∗Rt−n)/(N∗(N+1)/2)
-# Exponential Weighted Moving Averages(Exponential Decaying Average)
+## Exponential Weighted Moving Averages(Exponential Decaying Average)
 * R′t=α∗Rt−1+(1−α)∗R′t−1
-# Linear Regression
-# Random Forest Regression
-# XG-Boost Regression
+## Linear Regression
+## Random Forest Regression
+## XG-Boost Regression
 
 # Results:
 | Model | MAP Error |
